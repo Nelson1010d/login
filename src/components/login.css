@@ -7,16 +7,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+body {
+    /* background: #6476b1;
+    background: linear-gradient(to right, #9fa8c4, #6476b1); */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100vh; 
 }
-
 .container{
     background-color: #fff;
     border-radius: 30px;
@@ -166,7 +165,7 @@ body{
 .toggle{
     background-color: #512da8;
     height: 100%;
-    background: linear-gradient(to right, #0500f8, #8e48a9);
+    background: linear-gradient(to right, #5571d3, #e34646fc);
     color: #fff;
     position: relative;
     left: -100%;

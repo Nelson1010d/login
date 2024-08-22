@@ -1,9 +1,13 @@
 import Login from './components/Login'
+import ParticlesBackground from './components/ParticlesBackground'
 
 function App() {
 
   return (
-    <Login />
+    <>
+      <ParticlesBackground id="particles" />
+      <Login />
+    </>
   )
 }
 
