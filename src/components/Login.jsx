@@ -1,6 +1,8 @@
 import { FaGoogle, FaFacebook, FaApple } from "react-icons/fa";
 import { useRef } from 'react';
 import './login.css'
+import Input from "./InputButtons/Input";
+import SocialButtons from "./SocialButtons/SocialButtons";
 
 export default function App() {
     const containerRef = useRef(null);
@@ -20,14 +22,13 @@ export default function App() {
                     <form >
                         <h1>Create Account</h1>
                         <div className="social-icons">
-                            <a href="https://google.com" target="_blank" rel="noopener noreferrer"><FaGoogle /></a>
-                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-                            <a href="https://apple.com" target="_blank" rel="noopener noreferrer"><FaApple /></a>
+                        <SocialButtons />
                         </div>
                         <span>or use your email for registeration</span>
-                        <input type="text" placeholder="Name" />
-                        <input type="email" placeholder="Email" />
-                        <input type="password" placeholder="Password" />
+                    
+                        <Input text={"Nombre"}/>
+                        <Input text={"Email"}/>
+                        <Input text={"Contraseña"} type="password"/>
                         <button>Sign Up</button>
                     </form>
                 </div>
@@ -35,14 +36,12 @@ export default function App() {
                     <form>
                         <h1>Sign In </h1>
                         <div className="social-icons">
-                            <a href="https://google.com" target="_blank" rel="noopener noreferrer"><FaGoogle /></a>
-                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-                            <a href="https://apple.com" target="_blank" rel="noopener noreferrer"><FaApple /></a>
+                          <SocialButtons />
                         </div>
                         <span>or use your email for registeration</span>
-                        <input type="text" placeholder="Name" />
-                        <input type="email" placeholder="Email" />
-                        <input type="password" placeholder="Password" />
+                        <Input text={"Nombre"}/>
+                        <Input text={"Email"}/>
+                        <Input text={"Contraseña"} type="password"/>
                         <button>Sign In</button>
                     </form>
                 </div>
