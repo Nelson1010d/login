@@ -26,9 +26,9 @@ export default function App() {
                         </div>
                         <span>or use your email for registeration</span>
                     
-                        <Input text={"Nombre"}/>
+                        <Input text={"Name"}/>
                         <Input text={"Email"}/>
-                        <Input text={"Contraseña"} type="password"/>
+                        <Input text={"Password"} type="password"/>
                         <button>Sign Up</button>
                     </form>
                 </div>
@@ -39,9 +39,9 @@ export default function App() {
                           <SocialButtons />
                         </div>
                         <span>or use your email for registeration</span>
-                        <Input text={"Nombre"}/>
+                        <Input text={"Name"}/>
                         <Input text={"Email"}/>
-                        <Input text={"Contraseña"} type="password"/>
+                        <Input text={"Password"} type="password"/>
                         <button>Sign In</button>
                     </form>
                 </div>
