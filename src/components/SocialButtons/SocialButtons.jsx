@@ -2,7 +2,7 @@ import React from 'react'
 import './style/social.css'
 function SocialButtons() {
   return ( 
-  <div class="form-container__footer">
+  <div className="form-container__footer">
     <div className="form-container__sign-app-buttons">
     <button className="google">
       <svg
